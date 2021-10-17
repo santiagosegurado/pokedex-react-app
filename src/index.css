@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+body{
+    background-color: #fcf4ec;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+#imgPokedex{
+    border-radius: 1rem 1rem 5.25rem;
+    border: 3px solid rgba(0,0,0,.125) ;
+    background-color: #fff0d6;
+    overflow: hidden;
+}
+
+#fondoPokedex{
+    padding: 0px ;
+    background: url('./assets/img/pokeball.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#imagenPokemon{
+    width: 100%;
+}
+
+#pokeball{
+    width: 14%;
+}
+
+
+#name{
+    background-color: #f99028;
+}
+
+@media screen and (min-width: 800px){
+    #nombrePoke{
+        margin-left: 120px !important;
+        background-color: #f0efef;
+        width: 55%;
+        text-transform: uppercase;
+    }
+
+    #pokeball{
+        width: 9%;
+    }
+} 
+
+
+
+
+#nombrePoke{
+    
+    background-color: #f0efef;
+    
+    text-transform: uppercase;
+}
+
+.atributos{
+   text-transform: uppercase;
+   margin-left: 80px;
 }
